@@ -32,7 +32,7 @@ hr {
   font-size: 0.9rem;
 }
 .card-group ul li {
-  margin: 1 rem 0;
+  margin: 1rem 0;
   list-style: none;
 }
 .domain-type {
@@ -59,4 +59,34 @@ hr {
 }
 .muted {
   color: #858383;
+}
+@media screen and (max-width: 767px) {
+  .card-group {
+    width: 250px;
+    border-radius: 15px;
+    padding: 5px 0;
+  }
+  .card-header {
+    font-size: 0.85rem;
+  }
+  .card-price {
+    font-size: 1rem;
+  }
+  .period {
+    font-size: 0.75rem;
+  }
+  .domain-type {
+    font-size: 0.9rem;
+  }
+  .card-group button {
+    font-size: 0.8rem;
+    font-weight: 900;
+    border-radius: 15px;
+    height: 40px;
+    width: 185px;
+  }
+  .card-group ul {
+    margin-left: 5%;
+    font-size: 0.8rem;
+  }
 }
