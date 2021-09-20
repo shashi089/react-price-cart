@@ -1,3 +1,3 @@
 # React-Price-Cart
 
-[link](https://shashidhar-react-price-cart.netlify.app/)
+[Click here](https://shashidhar-react-price-cart.netlify.app/)To view deployed site
